@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>ChapterSkies</h1>
+    </div>
+    <div class="container">
+        <div class="containerMesager">
+            <h2>The Last Leaf of Hope</h2>
+            <h5>Report</h5>
+            <p>Once upon a time, in a quiet little town surrounded by endless fields, there stood an ancient oak tree at the heart of the village. It was said to be magical, with leaves that shimmered like gold under the sun. The tree was a symbol of resilience for the villagers during tough times.
+
+                One winter, an unusually harsh storm struck the town, threatening its survival....</p>
+            <button onclick="deletebook(event)"> Delete </button>
+        </div>
+    </div>
+
+    <div class="bottom-overlay"></div>
+    <div class="popopbox">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="Book-id-input">
+            <input type="text" placeholder="Book Author" id="Book-id-Author">
+            <textarea placeholder="Short Description" id="Book-id-descripation"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="Cancel">Cancel</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="funtion.js"></script>
+</body>
+</html>
